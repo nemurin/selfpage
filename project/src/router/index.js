@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Work from '@/components/Work'
 import Skill from '@/components/Skill'
 import Profile from '@/components/Profile'
+import Language from '@/components/Language'
 
 Vue.use(Router)
 
@@ -31,6 +32,12 @@ export default new Router({
       path: '/works',
       name: 'Work',
       component: Work
+    },
+
+    {
+      path: '/languages',
+      name: 'Language',
+      component: Language
     }
   ]
 })
