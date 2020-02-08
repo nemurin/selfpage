@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Work from '@/components/Work'
 import Skill from '@/components/Skill'
+import Profile from '@/components/Profile'
 
 Vue.use(Router)
 
@@ -18,6 +19,12 @@ export default new Router({
       path: '/skills',
       name: 'Skill',
       component: Skill
+    },
+
+    {
+      path: '/profile',
+      name: 'Profile',
+      component: Profile
     },
 
     {
