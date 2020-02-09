@@ -1,8 +1,10 @@
 <template>
   <div class="hobby">
-    <div class="content">
-    <h3> {{ name }} </h3>
-    <p> {{ text }} </p>
+    <h1> HOBBY </h1>
+    <h3> 最近やってる趣味一覧です</h3>
+    <div class="content" v-for="(item, index) in items" :key=index>
+    <h2> {{ item.name }} </h2>
+    <p> {{ item.text }} </p>
   </div>
   </div>
 </template>
@@ -12,8 +14,53 @@ export default {
   name: 'Hobby',
   data () {
     return {
-      name: '趣味',
-      text: ''
+      items: [
+        {
+      name: '競技かるた',
+      star: '★★★',
+      text: '高校生の頃から現在までやっています。現在はA級四段を取得しています。'
+        },
+        {
+      name: '競技プログラミング',
+      star: '★★★',
+      text: '最近熱心にやっています。レートは緑色コーダーです。'
+        },
+        {
+      name: 'ドット絵',
+      star: '★★★',
+      text: 'ドット絵を書いています。近日ドット絵公開予定です。'
+        },
+        {
+      name: '音楽制作',
+      star: '★☆☆',
+      text: 'まだ上手く形にならない…'
+        },
+        {
+      name: '遊戯王',
+      star: '★☆☆',
+      text: 'リアルカードの方をやっています。'
+        },
+        {
+      name: 'FGO',
+      star: '★☆☆',
+      text: '熱心にやっています。映画が楽しみ。'
+        },
+        {
+      name: 'Shadowverse',
+      star: '★☆☆',
+      text: 'ローテではクオンウィッチ、アマツエルフ、潜伏ロイヤルなど、アンリミではAFネメシスやってます。'
+        },
+        {
+      name: 'デュエルマスターズプレイス',
+      star: '★☆☆',
+      text: 'プラチナランクでボルコン握ってます。'
+        },
+        {
+      name: '競技プログラミングブログ',
+      star: '★☆☆',
+      text: 'ほそぼそやってます。'
+        },
+      ]
     }
   }
 }
@@ -34,7 +81,6 @@ div.content {
 }
 
 h3 {
-  color: white;
 }
 
 p {
