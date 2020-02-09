@@ -1,8 +1,11 @@
 <template>
   <div class="work">
-    <div class="content" v-for="i in 6" :key=i>
-    <h3> {{ name }} </h3>
-    <p> {{ text }} </p>
+    <h1> WORKS </h1>
+    <h3> 作成したソフトやコンテンツをまとめています。</h3>
+    <div class="content" v-for="(item, index) in items" :key=index>
+    <h2> {{ item.name }} </h2>
+    <img v-if="index === 2" class="img" src="../assets/ARNavi.png" width="100" />
+    <p> {{ item.text }} </p>
   </div>
   </div>
 </template>
@@ -12,8 +15,38 @@ export default {
   name: 'Work',
   data () {
     return {
-      name: 'カメラアプリを作成した',
-      text: 'このような意図で作成しました。ここをこのように工夫しました。ここが難しかったです。今後はこうゆう機能を追加したいです。'.repeat(3)
+      items: [
+        {
+      name: '同時投影',
+      text: '大学で研究していました。',
+      path: "../assets/ARNavi.png"
+        },
+        {
+      name: 'God Returns',
+      text: 'アイワナ風ゲームです。',
+      path: "../assets/ARNavi.png"
+        },
+        {
+      name: 'AR Navi',
+      text: 'ARでナビします。',
+      path: "ARNavi"
+        },
+        {
+      name: 'チャットアプリ',
+      text: 'LINEで作りました。',
+      path: "../assets/ARNavi.png"
+        },
+        {
+      name: 'ホームページ',
+      text: 'これです。',
+      path: "../assets/ARNavi.png"
+        },
+        {
+      name: '競プロブログ',
+      text: 'https://nemurin-blog.hatenablog.com',
+      path: "../assets/ARNavi.png"
+        },
+      ]
     }
   }
 }
@@ -34,7 +67,6 @@ div.content {
 }
 
 h3 {
-  color: white;
 }
 
 p {
