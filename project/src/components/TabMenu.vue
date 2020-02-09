@@ -20,7 +20,8 @@ export default {
         { title: 'profile', path: '/profile' },
         { title: 'skills', path: '/skills' },
         { title: 'works', path: '/works' },
-        { title: 'language', path: '/languages' }
+        { title: 'language', path: '/languages' },
+        { title: 'hobby', path: '/hobby' }
       ]
     }
   }
@@ -31,7 +32,7 @@ export default {
 
 ol {
   margin-left: auto;
-  width: 480px;
+  width: 780px;
   display:flex;
   justify-content: center;
   padding: 0;
