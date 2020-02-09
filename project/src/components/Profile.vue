@@ -3,7 +3,8 @@
     <h1> PROFILE </h1>
     <h3> 各項目クリックで別ページに移動します </h3>
     <div class="content">
-    <p>{{ text }}</p>  
+    <p>{{ text }}</p>
+    <p>{{ univ }}</p>  
     <p>Twitter: <a href= "https://twitter.com/nemurin_tech" target="_blank" >{{twitter}}</a></p>
     <p>Blog: <a href= "https://nemurin-blog.hatenablog.com/" target="_blank" >{{ blog }}</a></p>
     <p>Mail: {{ Mail }}</p> 
@@ -20,6 +21,7 @@ export default {
       name: 'プロフィール',
       twitter: 'ねむー',
       text: 'Name: ねむー',
+      univ: 'University: 九州大学システム情報科学府',
       blog: 'ねむーの日記~AtCoderな日々~',
       Mail: 'yh.kyud.28[at]gmail.com',
       Github: 'nemurin',
