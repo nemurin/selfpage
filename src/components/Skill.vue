@@ -44,7 +44,7 @@ export default {
         {
       name: 'Vue.js',
       star: '★☆☆',
-      text: 'モダンなWeb開発に最近興味があり、勉強を始めています。このサイトをVue.jsで作成することを目標に学習中です。'
+      text: 'モダンなWeb開発に最近興味があり、勉強を始めています。このサイトをVue.jsで作成することを目標に学習しました。Nuxt.jsにも興味を持っています。'
         },
         {
       name: 'Blender',
