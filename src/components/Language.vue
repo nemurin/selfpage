@@ -78,8 +78,8 @@ div.language {
 div.content {
   background-color: #eee;
   display: inline-block;
-  margin: 10px;
-  width: 30%;
+  margin: 1%;
+  width: 300px;
 }
 
 h3 {
@@ -87,6 +87,7 @@ h3 {
 }
 
 p {
+  font-size: 100%;
   width: 90%;
   display: inline-block;
   text-align: left;
