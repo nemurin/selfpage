@@ -39,12 +39,12 @@ export default {
         {
       name: 'HTML',
       star: '★☆☆',
-      text: '最初にホームページを作った際に勉強しました。'
+      text: '最初にホームページを作った際に勉強しました。HTML5を使用しています。'
         },
         {
       name: 'Java',
       star: '★☆☆',
-      text: 'Springフレームワークの勉強に使用しています。'
+      text: 'Springフレームワークの勉強に使用しています。もう少し深く勉強したいです。'
         },
         {
       name: 'Matlab',
@@ -54,7 +54,7 @@ export default {
         {
       name: 'Python',
       star: '★☆☆',
-      text: '授業で機械学習をする際に使用しました。SckitLearnやTensorFlowが使えます。'
+      text: '機械学習をする際に使用し、SckitLearnやTensorFlowが使えます。'
         },
         {
       name: 'R',
