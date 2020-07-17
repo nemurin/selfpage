@@ -4,7 +4,7 @@
     <h3> 作成したソフトやコンテンツをまとめています。</h3>
     <div class="content" v-for="(item, index) in items" :key=index>
     <h2> {{ item.name }} </h2>
-    <img v-if="index === 2" class="img" src="../assets/ARNavi.png" width="100" />
+    <img v-if="index === 2" class="img" src="../assets/ARNavi.png" width="90%" />
     <p> {{ item.text }} </p>
   </div>
   </div>
@@ -66,10 +66,12 @@ div.content {
   width: 30%;
 }
 
-h3 {
+h2 {
+  font-size: 130%;
 }
 
 p {
+  font-size: 100%;
   width: 90%;
   display: inline-block;
   text-align: left;

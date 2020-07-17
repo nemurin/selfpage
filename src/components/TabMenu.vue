@@ -42,8 +42,8 @@ ol {
 li {
   width: 15%;
   height: 50px;
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:1%;
+  margin-right:1%;
   font-size: 14px;
   background-color: skyblue;
   border-radius: 8px;
