@@ -32,7 +32,7 @@ export default {
 
 ol {
   margin-left: auto;
-  width: 780px;
+  width: 100%;
   display:flex;
   justify-content: center;
   padding: 0;
@@ -40,7 +40,7 @@ ol {
 }
 
 li {
-  width: 100px;
+  width: 15%;
   height: 50px;
   margin-left:10px;
   margin-right:10px;

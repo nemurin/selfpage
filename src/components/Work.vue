@@ -62,7 +62,7 @@ div.work {
 div.content {
   background-color: #eee;
   display: inline-block;
-  margin: 10px;
+  margin: 1%;
   width: 30%;
 }
 
