@@ -4,6 +4,15 @@
     <h3> 最近やってる趣味一覧です</h3>
     <div class="content" v-for="(item, index) in items" :key=index>
     <h2> {{ item.name }} </h2>
+    <img v-if="index === 0" class="img" src="../assets/karuta.jpg" width="50%" />
+    <img v-if="index === 1" class="img" src="../assets/program.png" width="50%" />
+    <img v-if="index === 2" class="img" src="../assets/spring.png" width="50%" />
+    <img v-if="index === 3" class="img" src="../assets/sonar.png" width="50%" />
+    <img v-if="index === 4" class="img" src="../assets/YGO.jpg" width="50%" />
+    <img v-if="index === 5" class="img" src="../assets/FGO.jpg" width="50%" />
+    <img v-if="index === 6" class="img" src="../assets/sonar.png" width="50%" />
+    <img v-if="index === 7" class="img" src="../assets/a-kunaitu.jpg" width="50%" />
+    <img v-if="index === 8" class="img" src="../assets/blog.png" width="50%" />
     <p> {{ item.text }} </p>
   </div>
   </div>

@@ -7,7 +7,7 @@
     <img v-if="index === 0" class="img" src="../assets/GTX1.png" width="50%" />
     <img v-if="index === 1" class="img" src="../assets/GODRETURNS.png" width="50%" />
     <img v-if="index === 2" class="img" src="../assets/ARNavi.png" width="25%" />
-    <img v-if="index === 3" class="img" src="../assets/HOMEPAGE.png" width="50%" />
+    <img v-if="index === 3" class="img" src="../assets/GTX1.png" width="50%" />
     <img v-if="index === 4" class="img" src="../assets/HOMEPAGE.png" width="50%" />
     <img v-if="index === 5" class="img" src="../assets/blog.png" width="50%" />
     <p> {{ item.text }} </p>
