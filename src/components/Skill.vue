@@ -5,6 +5,15 @@
     <div class="content" v-for="(item, index) in items" :key=index>
     <h2> {{ item.name }} </h2>
     <h2> {{ item.star }} </h2>
+    <img v-if="index === 0" class="img" src="../assets/GitHub.png" width="50%" />
+    <img v-if="index === 1" class="img" src="../assets/opencv.png" width="50%" />
+    <img v-if="index === 2" class="img" src="../assets/unity.jpg" width="50%" />
+    <img v-if="index === 3" class="img" src="../assets/firebase.png" width="50%" />
+    <img v-if="index === 4" class="img" src="../assets/AWS.png" width="50%" />
+    <img v-if="index === 5" class="img" src="../assets/vue.png" width="50%" />
+    <img v-if="index === 6" class="img" src="../assets/blender.png" width="50%" />
+    <img v-if="index === 7" class="img" src="../assets/aviutl.jpg" width="35%" />
+    <img v-if="index === 8" class="img" src="../assets/bandlab.png" width="25%" />
     <p> {{ item.text }} </p>
   </div>
   </div>
